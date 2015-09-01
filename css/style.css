@@ -365,6 +365,7 @@ body{
 .team-master{
 	background: url(../images/team-background.jpg);
 	width: 100%;
+	background-size: cover;
 	padding: 0 0 120px 0;
 }
 
@@ -399,6 +400,7 @@ body{
 .contact-background{
 	background: url(../images/contact-background.jpg);
 	width: 100%;
+	background-size: cover;
 	padding: 0 0 100px 0; 
 }
 
@@ -457,6 +459,7 @@ body{
 .footer-background{
 	background: url(../images/footer-background.jpg);
 	width: 100%;
+	background-size: cover;
 }
 
 .footer{
