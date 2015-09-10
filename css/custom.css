@@ -35,3 +35,17 @@ blockquote.bigtext{
 	font-family: 'Raleway' !important;
 	font-weight: 400 !important;
 }
+.menubg {
+    width: 100%;
+    -ms-filter: "alpha(Opacity=30)";
+    -khtml-opacity: .3;
+    -moz-opacity: .3;
+    opacity: .3;
+    height: 130px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

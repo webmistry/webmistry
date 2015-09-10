@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><!-- Disable horrible auto-skype for contact numbers in IE -->
+    <meta name="description" content="Add a site description here"><!-- Add your site description -->
+    <meta name="author" content="Add author description here"><!-- Add your author description -->
+    <meta name="keywords" content="add,some,general,keywords,here,about,your,site"><!-- Add sites your keywords -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" /><!-- Include a Favicon, (always keep in root of folder) -->
+
+    <title>Web Mistry</title><!-- Your page/site title -->
+
+    <!-- Load Our CSS - Do not alter the load order -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap Core - ALways load first -->
+    <link href="css/animate.css" rel="stylesheet"><!-- Animatations -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><!-- Icon Font -->
+    <link href="css/icomoon.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet"><!-- Flexslider styles for #blogfeed -->
+    <link href="css/style.css" rel="stylesheet"><!-- Main theme stylesheet -->
+    <link href="css/custom.css" rel="stylesheet"><!-- Custom styles - Always load last -->
+
+    <!-- Load our fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+    <!-- Load our fonts individually if IE8+, to avoid faux bold & italic rendering -->
+    <!--[if IE]>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE8 -->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+    <![endif]-->
+
+    <!-- Load our stylesheet for IE9 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+
+    <!-- Load our jQuery, with an alternative source/fallback to our own version if request is unavailable -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    
+    <!-- Load these in the <head> for quicker IE8+ load times -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="home">
+
+    <!-- Our page loader 
+    <div class="loadstack">
+        <div class="spinner"></div>
+    </div>-->
+
+    <!-- ============================ Main menu, (modal window) ============================ -->
+
+    <div id="menumodal" class="modal fade" tabindex="-1" role="dialog" aria-label="menumodalLabel" aria-hidden="true">
+
+        <!-- Close modal trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Explore</h3>
+        </div>
+
+        <!-- Menu content -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- Logo for desktops/large screens -->
+                    <div id="menumodalLabel" class="modal-title">
+                        <div class="modallogo">
+                            <h3 class="logo-font" alt="Columbia Logo">Web Mistry</h3>
+                        </div>
+                        <div class="modaltagline">
+                            <h3>An agency &amp; personal portfolio theme, by Themes Collective.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <ul class="row motion">
+                        <li class="col-md-12 col-sm-6 two">
+                            <div class="menubg" style="background-image: url('')"></div>
+                            <a href="index.html" title="Home with Color Overlay Hero Image">Home</a>
+                        </li>
+                        <li class="col-md-12 col-sm-6 four">
+                            <div class="menubg" style="background-image: url('')"></div>
+                            <a href="services.html" title="Home with Hero Image">Services</a>
+                        </li>
+                        <li class="col-md-12 col-sm-6 eight">
+                            <div class="menubg" style="background-image: url('img/menu/video.jpg')"></div>
+                            <a href="portfolio.html" title="Home with Video Hero">Portfolio</a>
+                        </li>
+                        <!--<li class="col-md-4 col-sm-6 six">
+                            <div class="menubg" style="background-image: url('img/menu/slider.jpg')"></div>
+                            <a href="index-slider.html" title="Home with Slider Hero">Team</a>
+                        </li>
+                        <li class="col-md-4 col-sm-6 ten">
+                            <div class="menubg" style="background-image: url('img/menu/2col.jpg')"></div>
+                            <a href="portfolio-2col.html" title="Two Col Potfolio Grid">Our Clients</span></a>
+                        </li>-->
+                        <li class="col-md-12 col-sm-6 twelve">
+                            <div class="menubg" style="background-image: url('img/menu/3col.jpg')"></div>
+                            <a href="contact-us.html" title="Three Col Portfolio Grid">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <h3>Get in Touch</h3>
+                    <h4>Studio One, Green Trees Ave, NY 30023</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ End Main Navigation ==================================== -->
+
+    <!-- ============================ Social menu, (modal window) ============================ -->
+
+    <div id="socialmodal" class="modal fade" tabindex="-1" role="dialog" aria-label="socialmodalLabel" aria-hidden="true">
+
+        <!-- Menu Trigger -->
+        <button class="toggleclose" data-dismiss="modal" aria-hidden="true">
+            <span class="icon-close"></span>
+        </button>
+        <div class="explore">
+            <h3>Be Social</h3>
+        </div>
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3>Connect with Jonathan Ive</h3>
+                    <hr class="mini white central">
+                    <ul class="socialicons motion">
+                        <li class="two twitter"><a href="http://twitter.com/" title="Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
+                        <li class="four"><a href="http://dribbble.com/" title="Dribbble" class="dribbble" target="_blank"><span class="icon-dribbble"></span></a></li>
+                        <li class="six"><a href="http://facebook.com/" title="Facebook" class="facebook" target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li class="eight"><a href="http://instagram.com/" title="Instagram" class="instagram" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li class="ten"><a href="http://vimeo.com/" title="Vimeo" class="vimeo" target="_blank"><span class="icon-vimeo"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============================== End social menu ============================== -->
+
+    <!-- ============================ Header/fixed sidebar ============================ -->
+
+    <header id="header">
+        
+        <!-- Main menu toggle -->
+        <button class="toggle this" data-toggle="modal" data-target="#menumodal">
+            <span class="menu-bar bar-1"></span>
+            <span class="menu-bar bar-2"></span>
+            <span class="menu-bar bar-3"></span>
+        </button>
+        
+        <!-- Second logo for mobiles/tablets only. Maximum height of 65px -->
+        <div class="mobile_logo">
+            <h3 class="logo-font" alt="Columbia Logo">Web Mistry</h3>
+        </div>
+
+        <!-- Bullet navigation -->
+        <nav id="bullets" class="cover">
+            <ul>
+                <li class="current-page-item"><a href="#start"></a></li>
+                <li><a href="#icons"></a></li>
+                <li><a href="#three"></a></li>
+                <li><a href="#stats"></a></li>
+                <li><a href="#blogfeed"></a></li>
+                <li><a href="#testimonials"></a></li>
+            </ul>
+        </nav>      
+
+    </header>
+
+    <!-- Social menu toggle - keep outside of header to prevent horrible positioning problem on ipads -->
+    <button class="social" data-toggle="modal" data-target="#socialmodal">
+        <span class="icon-share"></span>
+    </button>
+
+    <!-- End header/fixed sidebar -->
+
+    <!-- ============================ Start the page content ============================ -->
+
+    <!-- Leading Page Container -->
+    <!-- Always keep all page content wrapped in this div, with id="wrapper" and class="page-content" -->
+    <div id="wrapper" class="page-content">
+
+        <!-- ============================ Section one: hero ============================ -->
+
+        <!-- ============================ Section four: services icons ============================ -->
+
+        <section id="icons" class="red-lt">
+            <div class="container padding">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <span class="fa fa-tachometer"></span>
+                        <h3>Easy Cpanel</h3>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <span class="fa fa-rocket"></span>
+                        <h3>Fast Service</h3>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-delay="0.9s">
+                        <span class="fa fa-inr"></span>
+                        <h3>Affordable Prices</h3>
+                    </div>
+                    <div class="col-md-3 col-xs-6 wow fadeInUp" data-wow-delay="1.2s">
+                        <span class="fa fa-mobile"></span>
+                        <h3>Mobile Responsive</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ Footer ============================ -->
+
+        <footer class="padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="index.html" title="Columbia"><h3 class="logo-font" alt="Columbia Logo">Web Mistry</h3></a>
+                        <p>Believe in what you know</p>
+                        <small>&copy; Copyright 2015 Web Mistry All rights reserved.</small>
+                        <hr class="mini central light-grey-dk">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- / END page #wrapper -->
+    </div>
+
+    <!-- ========== Load our scripts - keep positioned at the end of your document ========== -->
+
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap core - always load first -->
+    <script src="js/wow.min.js"></script><!-- WoW animations -->
+    <script src="js/jquery.nav.js"></script><!-- Left-hand bullet navigation -->
+    <script src="js/jquery.nicescroll.min.js"></script><!-- Scrollbars for whole page and main navigation -->
+    <script src="js/jquery.counterup.min.js"></script><!-- counterup plugin for increasing page stats -->
+    <script src="js/waypoints.min.js"></script><!-- Waypoints, needed for 'counterup' plugin -->
+    <script src="js/jquery.fitvids.js"></script><!-- Fitvids plugin, (responsive videos) -->
+    <script src="js/jquery.flexslider-min.js"></script><!-- Flexslider -->
+    <script src="js/jquery.easing.min.js"></script><!-- Easing plugin, for opacity fade on menu background images -->
+    <script src="js/scripts.js"></script><!-- Custom JS functions - always load last -->
+
+    <!-- Page-specific JS functions - these are functions that only occur on this specific page, so we DON'T want these placed in our scripts.js file as this file is loaded on every page for global site functions.  -->
+
+    <!-- Initialize CounterUp plugin for rounding up/animated statistics -->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+    <!-- Initialize fitvids.js plugin for responsive videos -->
+    <script>
+        $(document).ready(function(){
+            $(".fitvids").fitVids();
+        });
+    </script>
+
+    <!-- Teamimonials Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('#testo-carousel').carousel({
+                pauseOnHover: true,
+                interval: 4000,
+            });
+        });
+    </script>
+
+    <!-- Initialize flexslider for blogfeed slider -->
+    <script>
+        // second-flexslider
+        $(window).load(function() {
+          $('#blogslider').flexslider({
+            animation: "slide",
+            directionNav: false,
+            controlNav: false,
+            touch: false,
+            slideshow: false
+          });
+        });
+        $('.prev, .next').on('click', function() {
+          var href = $(this).attr('href');
+          $('#blogslider').flexslider(href)
+          return false;
+        })
+    </script>
+
+    <!-- ========== Insert your Google Analytics code below this line ========== -->
+
+    <!-- ======================== End Google Analytics ========================= -->
+
+</body>
+
+</html>
